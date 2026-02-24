@@ -1,0 +1,7 @@
+### Release v2.2.0
+
+✨ New Features
+- add Shizuku support for elevated permissions and enhance permissions UI
+
+🐛 Bug Fixes
+- enhance grayscale toggle functionality to preserve daltonizer state
