@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- WRITE_SECURE_SETTINGS permission in order to enable/disable the accessibility service and grayscale mode -->
+    <!-- WRITE_SECURE_SETTINGS permission in order to enable/disable the accessibility service -->
+    <!-- Note: Grayscale is now implemented via accessibility overlay and no longer requires this permission -->
     <uses-permission
         android:name="android.permission.WRITE_SECURE_SETTINGS"
         tools:ignore="ProtectedPermissions" />
