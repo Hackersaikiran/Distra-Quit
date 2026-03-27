@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.flx_apps.digitaldetox"
+    namespace = "com.flx_apps.distraquit"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.flx_apps.digitaldetox"
+        applicationId = "com.flx_apps.distraquit"
         minSdk = 26
         targetSdk = 33
         versionCode = 20200

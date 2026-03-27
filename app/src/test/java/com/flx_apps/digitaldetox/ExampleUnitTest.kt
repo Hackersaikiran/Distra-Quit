@@ -1,4 +1,4 @@
-package com.flx_apps.digitaldetox
+package com.flx_apps.distraquit
 
 import org.junit.Test
 

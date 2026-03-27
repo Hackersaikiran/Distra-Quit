@@ -4,7 +4,7 @@ A digital wellbeing Android application that helps users reduce smartphone addic
 
 ## Overview
 
-Distra-Quit (formerly DetoxDroid) is designed to help users reclaim control of their smartphone usage without punitive measures. Instead of time-based contracts or financial penalties, it provides tools that work seamlessly in the background to reduce compulsive phone use.
+Distra-Quit (formerly DistraQuit) is designed to help users reclaim control of their smartphone usage without punitive measures. Instead of time-based contracts or financial penalties, it provides tools that work seamlessly in the background to reduce compulsive phone use.
 
 ## Key Features
 
@@ -107,7 +107,7 @@ app/src/main/java/com/flx_apps/digitaldetox/
 │   └── ...
 ├── system_integration/          # Android system integrations
 │   ├── GrayscaleOverlayManager.kt  # Overlay rendering
-│   ├── DetoxDroidAccessibilityService.kt
+│   ├── DistraQuitAccessibilityService.kt
 │   └── ...
 ├── ui/                         # Compose UI screens
 │   ├── screens/
@@ -128,7 +128,7 @@ Main feature logic that determines when to show/hide grayscale based on:
 - Schedule settings
 - Fullscreen detection
 
-**DetoxDroidAccessibilityService**  
+**DistraQuitAccessibilityService**  
 Core accessibility service that monitors app changes and triggers feature actions.
 
 ### Customization

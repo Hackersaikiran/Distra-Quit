@@ -1,1 +1,1 @@
-Re-implemented "Uninstall DetoxDroid" button showing when Device Admin permission has been granted
+Re-implemented "Uninstall DistraQuit" button showing when Device Admin permission has been granted

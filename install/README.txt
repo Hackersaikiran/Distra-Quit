@@ -1,6 +1,6 @@
 ===========================================================
 
-           DETOXDROID INSTALLATION INSTRUCTIONS
+           DISTRAQUIT INSTALLATION INSTRUCTIONS
 
 ===========================================================
 
@@ -39,4 +39,4 @@ RUNNING THE INSTALLATION SCRIPT:
 If you do not trust the installation scripts, you can
 always follow the manual installation steps on:
 
-https://github.com/flxapps/DetoxDroid/wiki/Manual-Installation
+https://github.com/flxapps/DistraQuit/wiki/Manual-Installation

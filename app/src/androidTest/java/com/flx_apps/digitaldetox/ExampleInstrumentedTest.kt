@@ -1,4 +1,4 @@
-package com.flx_apps.digitaldetox
+package com.flx_apps.distraquit
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
@@ -17,6 +17,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.flx_apps.digitaldetox", appContext.packageName)
+        assertEquals("com.flx_apps.distraquit", appContext.packageName)
     }
 }

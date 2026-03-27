@@ -25,7 +25,7 @@
     <!-- ACCESS_NOTIFICATION_POLICY permission in order to activate/deactivate zen mode ("do not disturb" mode) -->
     <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
 
-    <!-- android.permission.REQUEST_DELETE_PACKAGES permission to self-uninstall DetoxDroid when it is in DeviceOwner mode -->
+    <!-- android.permission.REQUEST_DELETE_PACKAGES permission to self-uninstall DistraQuit when it is in DeviceOwner mode -->
     <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
 
     <!-- android.permission.QUERY_ALL_PACKAGES permission to get the list of installed apps on Android >= 11-->
@@ -59,7 +59,7 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
-        android:name=".DetoxDroidApplication"
+        android:name=".DistraQuitApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -67,13 +67,13 @@
         android:label="@string/app.name_"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DetoxDroid"
+        android:theme="@style/Theme.DistraQuit"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app.name_"
-            android:theme="@style/Theme.DetoxDroid">
+            android:theme="@style/Theme.DistraQuit">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -81,7 +81,7 @@
         </activity>
 
         <service
-            android:name=".system_integration.DetoxDroidAccessibilityService"
+            android:name=".system_integration.DistraQuitAccessibilityService"
             android:description="@string/app.accessibilityService.description"
             android:exported="false"
             android:label="@string/app.accessibilityService.name"
@@ -98,7 +98,7 @@
         <service android:name=".ui.screens.feature.disable_apps.AppDisabledOverlayService" />
 
         <receiver
-            android:name="com.flx_apps.digitaldetox.system_integration.DetoxDroidDeviceAdminReceiver"
+            android:name="com.flx_apps.distraquit.system_integration.DistraQuitDeviceAdminReceiver"
             android:exported="true"
             android:label="Detox Droid Device Admin"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
